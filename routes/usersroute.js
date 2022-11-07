@@ -9,12 +9,14 @@ route.get("/", getAllUsers);
 route.get("/:id", getSingleUser)
 
 // Route POST "/users"
-route.post("/", createUsers );
+route.post("/", createUsers);
 
 // Route PATCH "/users:id"
 route.patch("/:id", updateUser);
 
 //Route DELETE "/users/:id"
-route.delete("/:id,",deleteUsers );
+route.delete("/:id,", deleteUsers);
 
 export default route
+
+// allways export 
